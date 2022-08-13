@@ -1,0 +1,5 @@
+<launch>
+  <node name="cam_pkg" pkg="cam_pkg" type="cam_pkg" respawn="false" output="screen">
+    <rosparam param="image_topic">"/usb_cam/image_raw"</rosparam>
+  </node>
+</launch>

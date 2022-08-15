@@ -1,7 +1,7 @@
 # cam_pkg
 Use a camera thread to identify the Qrcodes in the image
 ## Installing
- - Download zbar lib
+ - Install zbar lib
 ```
 sudo apt-get install libzbar-dev libzbar0
 ```

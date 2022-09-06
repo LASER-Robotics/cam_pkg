@@ -1,5 +1,5 @@
 # cam_pkg
-Use a camera thread to identify the Qrcodes in the image
+Use a camera thread to show the image
 ## Installing
  - Clone this package in a Catkin workspace and build it.
  - Launch the package using

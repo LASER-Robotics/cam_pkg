@@ -1,10 +1,9 @@
 # cam_pkg
-Use a camera thread to show the image
-## Installing
- - Clone this package in a Catkin workspace and build it.
- - Launch the package using
+Usa um topico de camera para mostrar a imagem
+## Instalando
+ - Clone esse pacote em um workspace e compile o mesmo.
+ - Inicialize o pacote com esse comando
 ```
 roslaunch cam_pkg cam_launch.launch
 ```
- - NOTE THAT YOUR WORKSPACE MUST BE SOURCER TO RUN THIS COMMAND.
- - It is highly recommended that you source your workspace in the bashrc file.
+ - ATENÇÂO O WORKSPACE PRECISA TER SIDO RECONHECIDO PARA O COMANDO FUNCIONAR ( comando "source devel/setup.bash" )

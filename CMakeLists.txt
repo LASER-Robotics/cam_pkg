@@ -31,6 +31,5 @@ include_directories(include
 add_executable(cam_pkg src/cam.cpp)
 add_dependencies(cam_pkg ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 find_package(PkgConfig REQUIRED)
-pkg_check_modules(ZBar REQUIRED IMPORTED_TARGET zbar)
-target_link_libraries(cam_pkg ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} PkgConfig::ZBar )
+target_link_libraries(cam_pkg ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 

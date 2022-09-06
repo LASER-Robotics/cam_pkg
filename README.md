@@ -1,9 +1,6 @@
 # cam_pkg
 Use a camera thread to identify the Qrcodes in the image
 ## Installing
- - Install zbar lib
-```
-sudo apt-get install libzbar-dev libzbar0
 ```
  - Clone this package in a Catkin workspace and build it.
  - Launch the package using
